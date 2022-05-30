@@ -1,0 +1,65 @@
+body {
+    margin:0px;
+    text-align: center;
+    font-family: 'Varela Round', serif;
+}
+h1 {
+    margin-top: 0px; 
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.firstdiv {
+    background-color: skyblue;
+    margin-top: 0px;
+    position: relative;
+    padding-top: 100px;
+    
+    
+    
+    
+}
+.seconddiv {
+}
+
+.thirddiv {
+    
+}
+
+.aspiring {
+    text-decoration: underline;
+}
+.mountain {
+    
+}
+.firstcloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+.secondcloud {
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile {
+    width:180px;
+    height:180px;
+}
+.dog {
+    width:180px;
+    height:180px;
+} 
+.carvel {
+    width: 180px;
+    height: 180px;
+}
