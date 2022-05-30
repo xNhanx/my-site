@@ -1,56 +1,84 @@
 body {
     margin: 0px;
     text-align: center;
-
-
+    font-family: 'Varela Round', serif;
 }
 
 h1 {
-    margin: 0px
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
 }
 
-
-
-.topContainer {
-    background-color: #E4F9F5;
-    /* padding-top: 50px; */
-
-
+h2 {
+    font-family: 'Montserrat', sans-serif;
 
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
 
-
-
-
-.middleContainer {
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
-}
-
-.bottomContainer {
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
 }
 
 
+.firstdiv {
+    background-color: skyblue;
+    margin-top: 0px;
+    position: relative;
+    padding-top: 100px;
+
+
+
+
+}
+
+.seconddiv {}
+
+.thirddiv {}
 
 .aspiring {
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
-.bottomCloud {
+.mountain {}
+
+.firstcloud {
     position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.secondcloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+}
+
+.dog {
+    width: 180px;
+    height: 180px;
+}
+
+.carvel {
+    width: 180px;
+    height: 180px;
+}
+
+.contactimage {
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
 
 }
 
 
-.top-cloud {
-    position: relative;
-    left: 200px;
-    margin: 50px;
 
+.ContactMe {
+    position: relative;
 
 }
