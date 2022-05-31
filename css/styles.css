@@ -2,21 +2,34 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Varela Round', serif;
+    font-size: 2em;
 }
 
 h1 {
-    margin-top: 0px;
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 
 }
 
+
+
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 
+}
+
+a:link {
+    color: #11999E;
 }
 
 
@@ -31,7 +44,33 @@ h3 {
 
 }
 
-.seconddiv {}
+.SkillsDogPic {
+    float: left;
+
+
+}
+
+.SkillsDogHeader {}
+
+.SkillsDogDescription {}
+
+.introductiondesc {
+    font-size: 2.5rem;
+}
+
+
+
+.MySkillsSection {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+
+}
+
+
+
 
 .thirddiv {}
 
@@ -60,13 +99,12 @@ h3 {
 }
 
 .dog {
-    width: 180px;
-    height: 180px;
+    width: 25%;
+
 }
 
 .carvel {
-    width: 180px;
-    height: 180px;
+    width: 25%;
 }
 
 .contactimage {
