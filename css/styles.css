@@ -5,6 +5,18 @@ body {
     font-size: 2em;
 }
 
+.hrstyle {
+    border: 10px dotted #EAF6F6;
+    border-top: 0px;
+    width: 4%;
+    margin: auto;
+
+}
+
+.hr1 {
+    margin-top: 100px;
+}
+
 h1 {
     color: #66BFBF;
     font-size: 5.625rem;
@@ -17,6 +29,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
+
 
 }
 
@@ -25,6 +39,7 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+
 
 }
 
@@ -38,21 +53,45 @@ a:link {
     margin-top: 0px;
     position: relative;
     padding-top: 100px;
+    margin-bottom: 100px;
 
 
 
 
 }
 
-.SkillsDogPic {
-    float: left;
+.end-section {
+    background-color: #66BFBF;
+
+
+
 
 
 }
 
-.SkillsDogHeader {}
+.Twitter {
+    display: inline-block;
+    color: #11999E;
 
-.SkillsDogDescription {}
+
+
+}
+
+.LinkedIn {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #11999E;
+
+}
+
+.Website {
+    display: inline-block;
+    color: #11999E;
+
+}
+
+
 
 .introductiondesc {
     font-size: 2.5rem;
@@ -63,14 +102,24 @@ a:link {
 .MySkillsSection {
     width: 50%;
     margin: 100px auto 100px auto;
-    text-align: left;
     line-height: 2;
 
 
 }
 
+.skills-header {
+    clear: left;
+    margin-bottom: 100px;
+
+}
 
 
+.LinkedIn,
+.Twitter,
+.Website {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
 
 .thirddiv {}
 
@@ -98,13 +147,72 @@ a:link {
     height: 180px;
 }
 
+.dog-section {
+    margin-bottom: 100px;
+}
+
 .dog {
     width: 25%;
+    float: left;
+    margin-right: 30px;
+
+
+
+
+
+
+
+}
+
+.dog-header-description {
+    text-align: left;
+
+
+
+
+
+}
+
+.dog-skill-description {
+    text-align: left;
+
+
+
+}
+
+.dog-header-and-description {}
+
+
+
+.carvel-header {
+    text-align: left;
+
+
+
+}
+
+
+.carvel-skill-description {
+    text-align: left;
+
+
+
 
 }
 
 .carvel {
     width: 25%;
+    float: right;
+    margin-left: 30px;
+
+
+
+
+
+}
+
+.carvel-section {
+    margin-bottom: 200px;
 }
 
 .contactimage {
@@ -119,4 +227,32 @@ a:link {
 .ContactMe {
     position: relative;
 
+}
+
+.contact-me-description {
+    margin-bottom: 100px;
+}
+
+.contactmespacing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-me-button {
+
+    background-color: #11998E;
+    background-image: linear-gradient(#1ee6d6, #0e736b);
+    border-radius: 25px;
+    display: inline-block;
+    padding: 25px;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.end-section-author {
+    color: #EAF6F6;
+    margin: 0 auto 0 auto;
+    padding-bottom: 100px;
+    font-size: 20px;
 }
